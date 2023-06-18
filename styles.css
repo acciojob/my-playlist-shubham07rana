@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+body{
+    padding-inline: 1rem;
+    box-sizing: border-box;
+}
+a{
+     color: black;
+}
+ul{
+    padding: 0;
+}
+.player_one,
+.player_two{
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.player_one{
+    width: calc(100%-2rem);
+    margin: auto;
+}
+.player_two{
+    width: max-content;
+    margin: auto;
+}
+audio{
+    width: 100%;
+}
